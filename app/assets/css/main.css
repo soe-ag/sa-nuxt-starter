@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+body {
+  border: 1px solid #ccc;
+}
+
+.dark {
+  --ui-bg: var(--ui-color-netural-800);
+}
